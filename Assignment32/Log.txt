@@ -1,0 +1,4 @@
+demo\B.txt
+demo\C.py
+demo\D.exe
+demo\E.exe

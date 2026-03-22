@@ -1,0 +1,27 @@
+Explain the concept of a classification report in machine learning. 
+Why is it used and what type of models require it?
+
+What is a Classification Report?
+A classification report is a summary that shows how well a classification model is performing.
+
+It gives important evaluation values like:
+
+Precision
+Recall
+F1-score
+Accuracy
+Support
+So instead of only accuracy, we get a complete performance analysis.
+
+Why is it used?
+Accuracy alone is not always correct.
+
+Example:
+If 95 students pass and only 5 fail, a model that always predicts “Pass” will give 95% accuracy, 
+but it is actually a bad model.
+
+A classification report helps us check:
+How correctly the model predicts each class
+Whether the model is biased toward one class
+Overall performance of the model
+

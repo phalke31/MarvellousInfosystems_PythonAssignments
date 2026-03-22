@@ -1,0 +1,15 @@
+
+In a classification report, explain the meaning of the following metrics:
+Precision
+Recall
+F1 Score
+Support
+Accuracy
+
+Answer :
+
+Precision → Correct predicted positives
+Recall → Correct actual positives
+F1 Score → Balance of precision and recall
+Support → Number of actual samples
+Accuracy → Overall correctness of model

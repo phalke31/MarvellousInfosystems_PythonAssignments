@@ -1,0 +1,29 @@
+Actual Values
+[1, 1, 1, 1, 0, 0, 0, 0]
+Predicted Values
+[1, 1, 0, 1, 0, 1, 0, 0]
+
+
+Answer :
+Compare both values one by one
+Actual	Predicted	Result
+1	    1	        True Positive (TP)
+1	    1	        True Positive (TP)
+1	    0	        False Negative (FN)
+1	    1	        True Positive (TP)
+0	    0	        True Negative (TN)
+0	    1	        False Positive (FP)
+0	    0	        True Negative (TN)
+0	    0	        True Negative (TN)
+Now count them
+
+True Positive (TP) → 3
+True Negative (TN) → 3
+False Positive (FP) → 1
+False Negative (FN) → 1
+
+Final Answer
+TP = 3
+TN = 3
+FP = 1
+FN = 1
